@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة العباسية الثانوية العسكرية بنين</title>
+    <!-- أكواد CSS مباشرة داخل الـ head -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0047ab;
+            padding: 15px 30px;
+            color: white;
+        }
+
+        .logo img {
+            width: 120px; /* تصغير عرض الشعار */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px; /* إضافة مساحة داخلية لتحسين التفاعل */
+            transition: background-color 0.3s; /* تأثير الانتقال */
+        }
+
+        header nav ul li a:hover {
+            background-color: #007bff; /* اللون الأزرق عند التحويم */
+        }
+
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .about, .events {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- العنوان الرئيسي -->
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/ar/archive/d/dc/20231217132657%21%D9%85%D8%AF%D8%B1%D8%B3%D8%A9_%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%D9%8A%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%88%D9%8A%D8%A9_%D8%A8%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9.png" alt="شعار المدرسة">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="من نحن.html">من نحن </a></li>
+                <li><a href="الهيئة التدريسية.html">الهيئة التدريسية</a></li>
+                <li><a href="#events">الفعاليات</a></li>
+                <li><a href="#contact">التواصل</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- الصورة الرئيسية -->
+    <section class="hero">
+        <img src="https://img.youm7.com/ArticleImgs/2023/10/26/62334-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%D9%8A%D8%A9--%D8%A3%D9%82%D8%AF%D9%85-%D9%85%D8%AF%D8%B1%D8%B3%D8%A9-%D8%A8%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9-(2).jpg" alt="صورة مدرسة العباسية الثانوية العسكرية بنين">
+        <div class="hero-text">
+            <h1>مرحبا بكم في مدرسة العباسية الثانوية العسكرية بنين</h1>
+            <p>نحن ملتزمون بتوفير أفضل تعليم لطلابنا وإعدادهم لمستقبل مشرق.</p>
+            <a href="#about" class="btn">تعرف علينا</a>
+        </div>
+    </section>
+
+    <!-- معلومات مختصرة عن المدرسة -->
+    <section id="about" class="about">
+        <h2>عن مدرستنا</h2>
+        <p>تأسست مدرسة العباسية الثانوية العسكرية بنين عام 1910 وهي تهدف إلى تقديم تعليم ذو جودة عالية.</p>
+    </section>
+
+    <!-- التذييل -->
+    <footer>
+        <p>العنوان: [عنوان المدرسة]</p>
+        <p>الهاتف: [رقم الهاتف]</p>
+        <p>البريد الإلكتروني: [البريد الإلكتروني]</p>
+        <div class="social-media">
+            <a href="#">فيسبوك</a> | <a href="#">تويتر</a> | <a href="#">إنستغرام</a>
+        </div>
+        <p>&copy; 2024 مدرسة العباسية الثانوية العسكرية بنين - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
+

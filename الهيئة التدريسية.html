@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدرسة العباسية الثانوية العسكرية بنين</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0047ab;
+            padding: 15px 30px;
+            color: white;
+        }
+
+        .logo img {
+            width: 120px; /* تصغير عرض الشعار */
+            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px; /* إضافة مساحة داخلية لتحسين التفاعل */
+            transition: background-color 0.3s; /* تأثير الانتقال */
+        }
+
+        header nav ul li a:hover {
+            background-color: #007bff; /* اللون الأزرق عند التحويم */
+        }
+
+        .faculty {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .faculty h2 {
+            margin-bottom: 20px;
+        }
+
+        .teacher {
+            display: inline-block;
+            margin: 20px;
+            width: 200px; /* عرض ثابت لكل صورة معلم */
+        }
+
+        .teacher img {
+            width: 100%;
+            border-radius: 50%; /* جعل الصورة دائرية */
+        }
+
+        .teacher h3 {
+            margin: 10px 0 5px 0;
+        }
+
+        .teacher p {
+            margin: 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .social-media a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- العنوان الرئيسي -->
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/ar/archive/d/dc/20231217132657%21%D9%85%D8%AF%D8%B1%D8%B3%D8%A9_%D8%A7%D9%84%D8%B9%D8%A8%D8%A7%D8%B3%D9%8A%D8%A9_%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%88%D9%8A%D8%A9_%D8%A8%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9.png" alt="شعار المدرسة">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="من نحن.html">من نحن  </a></li>
+                <li><a href="الهيئة التدريسية.html">الهيئة التدريسية</a></li>
+                <li><a href="#events">الفعاليات</a></li>
+                <li><a href="#contact">التواصل</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- صفحة الهيئة التدريسية -->
+    <section id="teachers" class="faculty">
+        <h2>الهيئة التدريسية</h2>
+        <div class="teacher">
+            <img src="https://via.placeholder.com/150" alt="مستر علاءهريدى">
+            <h3>مستر علاءهريدى</h3>
+            <p>تخصص: الرياضيات</p>
+        </div>
+        <div class="teacher">
+            <img src="https://via.placeholder.com/150" alt="ميس صفاء الغندورى">
+            <h3>ميس صفاءالغندوري</h3>
+            <p>تخصص: العلوم</p>
+        </div>
+        <div class="teacher">
+            <img src="https://via.placeholder.com/150" alt="اسم المعلم 3">
+            <h3>اسم المعلم 3</h3>
+            <p>تخصص: اللغة العربية</p>
+        </div>
+        <div class="teacher">
+            <img src="https://via.placeholder.com/150" alt="اسم المعلم 4">
+            <h3>اسم المعلم 4</h3>
+            <p>تخصص: اللغة الإنجليزية</p>
+        </div>
+        <div class="teacher">
+            <img src="https://via.placeholder.com/150" alt="ميس فاطمة فاروق">
+            <h3>اسم المعلم 5</h3>
+            <p>تخصص: التاريخ</p>
+        </div>
+        <div class="teacher">
+            <img src="https://via.placeholder.com/150" alt="مستر حمد فايز">
+            <h3>اسم المعلم 6</h3>
+            <p>تخصص: اللغة الفرنسية</p>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer>
+        <p>العنوان: [عنوان المدرسة]</p>
+        <p>الهاتف: [رقم الهاتف]</p>
+        <p>البريد الإلكتروني: [البريد الإلكتروني]</p>
+        <div class="social-media">
+            <a href="#">فيسبوك</a> | <a href="#">تويتر</a> | <a href="#">إنستغرام</a>
+        </div>
+        <p>&copy; 2024 مدرسة العباسية الثانوية العسكرية بنين - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
